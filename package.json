@@ -1,6 +1,6 @@
 {
-  "name": "bedrock-data",
-  "version": "1.16.20",
+  "name": "@filiphsandstrom/bedrock-data",
+  "version": "1.16.20b",
   "main": "index.js",
   "repository": "https://github.com/filfat/bedrock-data",
   "author": "Filiph Sandström <filiph.sandstrom@filfatstudios.com>",
