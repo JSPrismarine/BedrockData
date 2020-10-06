@@ -1,0 +1,12 @@
+{
+  "name": "bedrock-data",
+  "version": "1.16.20",
+  "main": "index.js",
+  "repository": "https://github.com/filfat/bedrock-data",
+  "author": "Filiph Sandström <filiph.sandstrom@filfatstudios.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "binary-file": "^0.2.3"
+  }
+}
