@@ -9,9 +9,10 @@ const item_id_map = require('./resources/item_id_map.json');
 const r12_block_states = require('./resources/r12_block_states.json');
 const recipes = require('./resources/recipes.json');
 
-const biome_definitions = fs.readFileSync('./resources/biome_definitions.nbt');
-const entity_identifiers = fs.readFileSync('./resources/entity_identifiers.nbt');
-const required_block_states = fs.readFileSync('./resources/required_block_states.nbt');
+const biome_definitions = fs.readFileSync(__dirname + '/resources/biome_definitions.nbt');
+const entity_identifiers = fs.readFileSync(__dirname + '/resources/entity_identifiers.nbt');
+const required_block_states = fs.readFileSync(__dirname + '/resources/required_block_states.nbt');
+const block_states = fs.readFileSync(__dirname + '/block_states.dat');
 
 module.exports = {
     banner_patterns,
@@ -23,5 +24,6 @@ module.exports = {
     item_id_map,
     r12_block_states,
     recipes,
-    required_block_states
+    required_block_states,
+    block_states
 };
