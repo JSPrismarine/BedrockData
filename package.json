@@ -1,6 +1,6 @@
 {
   "name": "@jsprismarine/bedrock-data",
-  "version": "1.16.40",
+  "version": "1.16.40a",
   "main": "index.js",
   "repository": "https://github.com/filfat/bedrock-data",
   "author": "Filiph Sandström <filiph.sandstrom@filfatstudios.com>",
