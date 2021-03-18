@@ -1,9 +1,9 @@
 {
-  "name": "@jsprismarine/bedrock-data",
-  "version": "1.16.210",
-  "main": "index.js",
-  "repository": "https://github.com/filfat/bedrock-data",
-  "author": "Filiph Sandström <filiph.sandstrom@filfatstudios.com>",
-  "license": "MIT",
-  "private": false
+    "name": "@jsprismarine/bedrock-data",
+    "version": "1.16.210a",
+    "main": "index.js",
+    "repository": "https://github.com/filfat/bedrock-data",
+    "author": "Filiph Sandström <filiph.sandstrom@filfatstudios.com>",
+    "license": "MIT",
+    "private": false
 }
