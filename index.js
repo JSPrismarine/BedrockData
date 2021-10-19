@@ -12,7 +12,6 @@ const biome_definitions = fs.readFileSync(__dirname + '/resources/biome_definiti
 const entity_identifiers = fs.readFileSync(__dirname + '/resources/entity_identifiers.nbt');
 const canonical_block_states = fs.readFileSync(__dirname + '/resources/canonical_block_states.nbt');
 const r12_to_current_block_map = fs.readFileSync(__dirname + '/resources/r12_to_current_block_map.bin');
-const block_states = fs.readFileSync(__dirname + '/block_states.dat');
 
 module.exports = {
     banner_patterns,
@@ -24,6 +23,5 @@ module.exports = {
     item_id_map,
     r12_to_current_block_map,
     recipes,
-    canonical_block_states,
-    block_states
+    canonical_block_states
 };
