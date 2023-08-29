@@ -10,7 +10,7 @@ const recipes = require('./resources/recipes.json');
 
 const biome_definitions = fs.readFileSync(__dirname + '/resources/biome_definitions.nbt');
 const entity_identifiers = fs.readFileSync(__dirname + '/resources/entity_identifiers.nbt');
-const canonical_block_states = fs.readFileSync(__dirname + '/resources/canonical_block_states.nbt');
+const canonical_block_states = fs.readFileSync(__dirname + '/canonical_block_states.nbt');
 const r12_to_current_block_map = fs.readFileSync(__dirname + '/resources/r12_to_current_block_map.bin');
 
 module.exports = {
