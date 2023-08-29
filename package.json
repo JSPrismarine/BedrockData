@@ -1,7 +1,7 @@
 {
     "name": "@jsprismarine/bedrock-data",
     "types": "./index.d.ts",
-    "version": "1.20.15a",
+    "version": "1.20.15b",
     "main": "index.js",
     "repository": "https://github.com/filfat/bedrock-data",
     "author": "Filiph Sandström <filiph.sandstrom@filfatstudios.com>",
