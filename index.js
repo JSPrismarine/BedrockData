@@ -6,7 +6,7 @@ const block_id_map = require('./jsp/block_id_map.json');
 const creativeitems = require('./resources/creativeitems.json');
 const entity_id_map = require('./resources/entity_id_map.json');
 const item_id_map = require('./jsp/item_id_map.json');
-const recipes = require('./resources/recipes.json');
+// const recipes = require('./resources/recipes.json');
 
 const biome_definitions = fs.readFileSync(__dirname + '/resources/biome_definitions.nbt');
 const entity_identifiers = fs.readFileSync(__dirname + '/resources/entity_identifiers.nbt');
@@ -22,6 +22,6 @@ module.exports = {
     entity_identifiers,
     item_id_map,
     r12_to_current_block_map,
-    recipes,
+    // recipes,
     canonical_block_states
 };
