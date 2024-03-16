@@ -3,8 +3,23 @@
     "types": "./index.d.ts",
     "version": "1.20.70",
     "main": "index.js",
-    "repository": "https://github.com/filfat/bedrock-data",
-    "author": "Filiph Sandström <filiph.sandstrom@filfatstudios.com>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JSPrismarine/BedrockData.git"
+    },
+    "author": "JSPrismarine",
+    "contributors": [
+        {
+            "name": "Filiph Siitam Sandström",
+            "email": "filiph@nordcom.io",
+            "url": "https://nordcom.io/"
+        },
+        {
+            "name": "Enrico Angelon",
+            "email": "enricoangelon.ea@gmail.com",
+            "url": "https://enricoangelon.it/"
+        }
+    ],
     "license": "MIT",
     "private": false
 }
