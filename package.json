@@ -1,11 +1,44 @@
 {
     "name": "@jsprismarine/bedrock-data",
-    "types": "./index.d.ts",
+    "prettier": "@nordcom/prettier",
+    "sideEffects": false,
+    "type": "module",
     "version": "1.20.70",
-    "main": "index.js",
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "main": "./dist/index.cjs.cjs",
+    "module": "./dist/index.es.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": [
+                "./src/index.ts",
+                "./dist/index.es.js"
+            ],
+            "module": "./dist/index.es.js",
+            "require": "./dist/index.cjs.cjs",
+            "types": "./dist/index.d.ts"
+        },
+        "./*": {
+            "import": "./dist/*.es.js",
+            "module": "./dist/*.es.js",
+            "require": "./dist/*.cjs.cjs",
+            "types": "./dist/*.d.ts"
+        },
+        "./package.json": "./package.json"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/JSPrismarine/BedrockData.git"
+    },
+    "scripts": {
+        "build": "bun build src/index.ts --outdir=dist --target=node",
+        "typecheck": "tsc -noEmit"
     },
     "author": "JSPrismarine",
     "contributors": [
@@ -21,5 +54,11 @@
         }
     ],
     "license": "MIT",
-    "private": false
+    "private": false,
+    "devDependencies": {
+        "@nordcom/prettier": "0.1.1",
+        "@types/node": "20.12.5",
+        "typescript": "5.4.4"
+    },
+    "dependencies": {}
 }
