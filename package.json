@@ -3,30 +3,26 @@
     "prettier": "@nordcom/prettier",
     "sideEffects": false,
     "type": "module",
-    "version": "1.20.71-alpha.0",
+    "version": "1.20.73",
     "files": [
         "dist",
+        "jsp",
+        "resources",
+        "index.d.ts",
         "README.md"
     ],
-    "main": "./dist/index.cjs.cjs",
-    "module": "./dist/index.es.js",
-    "types": "./dist/index.d.ts",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./index.d.ts",
     "exports": {
         ".": {
-            "import": [
-                "./src/index.ts",
-                "./dist/index.es.js"
-            ],
-            "module": "./dist/index.es.js",
-            "require": "./dist/index.cjs.cjs",
-            "types": "./dist/index.d.ts"
+            "import": "./dist/index.js",
+            "module": "./dist/index.js",
+            "require": "./dist/index.js",
+            "types": "./index.d.ts"
         },
-        "./*": {
-            "import": "./dist/*.es.js",
-            "module": "./dist/*.es.js",
-            "require": "./dist/*.cjs.cjs",
-            "types": "./dist/*.d.ts"
-        },
+        "./*.nbt": "./dist/*.nbt",
+        "./*.bin": "./dist/*.bin",
         "./package.json": "./package.json"
     },
     "publishConfig": {
