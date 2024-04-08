@@ -8,7 +8,7 @@ BedrockData from PMMP exported in a nodejs friendly way.
 ## Getting Started
 ```bash
 # clone with submodules
-git clone --recurse-submodules
+git clone --recursive-submodules
 
 # pull submodules
 git submodule update --init --recursive
