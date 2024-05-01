@@ -3,7 +3,7 @@
     "prettier": "@nordcom/prettier",
     "sideEffects": false,
     "type": "module",
-    "version": "1.20.73-b",
+    "version": "1.20.81",
     "files": [
         "dist",
         "generated",
