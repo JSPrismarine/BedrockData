@@ -54,7 +54,7 @@
     "devDependencies": {
         "@types/node": "20.12.5",
         "@nordcom/prettier": "0.1.1",
-        "typescript": "5.4.4"
+        "typescript": "5.6.2"
     },
     "dependencies": {}
 }
