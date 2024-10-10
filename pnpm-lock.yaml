@@ -12,8 +12,8 @@ devDependencies:
     specifier: 20.12.5
     version: 20.12.5
   typescript:
-    specifier: 5.4.4
-    version: 5.4.4
+    specifier: 5.6.3
+    version: 5.6.3
 
 packages:
 
@@ -27,8 +27,8 @@ packages:
       undici-types: 5.26.5
     dev: true
 
-  /typescript@5.4.4:
-    resolution: {integrity: sha512-dGE2Vv8cpVvw28v8HCPqyb08EzbBURxDpuhJvTrusShUfGnhHBafDsLdS1EhhxyL6BJQE+2cT3dDPAv+MQ6oLw==}
+  /typescript@5.6.3:
+    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
